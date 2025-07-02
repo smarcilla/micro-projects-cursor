@@ -6,8 +6,14 @@ const app = express();
 
 // Definir un endpoint /ping que responda con { status: "ok" }
 
+// Añadir la lógica del query param en `src/index.ts`.
 app.get('/ping', (req: Request, res: Response) => {
-    res.json({ status: "ok" });
+    const name = req.query.name;
+    if (name) {
+        res.json({ status: `hello, ${name}` });
+    } else {
+        res.json({ status: "ok" });
+    }
 });
 
 // Iniciar el servidor en el puerto 3000
