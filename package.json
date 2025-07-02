@@ -4,7 +4,7 @@
   "description": "Repositorio para practicar y recuperar habilidades de desarrollo backend (Node.js, TypeScript, Express/NestJS) y frontend básico (Next.js/React) usando Cursor AI.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --config=jest.config.js",
     "dev": "ts-node-dev --respawn --project api-ping/tsconfig.json api-ping/src/index.ts"
   },
   "repository": {
@@ -23,7 +23,12 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.10",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.0.3",
+    "supertest": "^7.1.1",
+    "ts-jest": "^29.4.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   }
