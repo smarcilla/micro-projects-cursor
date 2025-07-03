@@ -1,0 +1,20 @@
+POST http://localhost:3000/user/register
+Content-Type: application/json
+
+{
+  "email": "invalid_email"
+}
+
+###
+
+POST http://localhost:3000/user/register
+Content-Type: application/json
+
+{
+  "email": "valid@email.com"
+}
+
+
+
+
+
