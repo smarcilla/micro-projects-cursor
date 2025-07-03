@@ -13,4 +13,4 @@ module.exports = {
       tsconfig: 'api-ping/tsconfig.json',
     },
   },
-};
+}; 

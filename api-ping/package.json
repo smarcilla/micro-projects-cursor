@@ -1,11 +1,11 @@
 {
-  "name": "micro-projects-cursor",
+  "name": "api-ping",
   "version": "1.0.0",
-  "description": "Repositorio para practicar y recuperar habilidades de desarrollo backend (Node.js, TypeScript, Express/NestJS) y frontend básico (Next.js/React) usando Cursor AI.",
-  "main": "index.js",
+  "description": "Microservicio de ping para pruebas.",
+  "main": "src/index.ts",
   "scripts": {
     "test": "jest --config=jest.config.js",
-    "dev": "ts-node-dev --respawn --project api-ping/tsconfig.json api-ping/src/index.ts"
+    "dev": "ts-node-dev --respawn --project tsconfig.json src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -32,4 +32,4 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   }
-}
+} 

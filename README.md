@@ -1,22 +1,21 @@
-# Micro-Projects with Cursor
+# micro-projects-cursor
 
 Repositorio para practicar y recuperar habilidades de desarrollo backend (Node.js, TypeScript, Express/NestJS) y frontend básico (Next.js/React) usando Cursor AI.
 
 ## Estructura
-- Cada carpeta es un mini-proyecto independiente.
-- Dentro de cada mini-proyecto, los pomodoros de trabajo se documentan en `/pomodoros/pomodoro-X.md`.
-- El objetivo es practicar de forma intensiva, reflexiva y ágil, midiendo avances y dificultades en sesiones cortas.
 
----
+Cada microproyecto es independiente y contiene su propio `package.json`, `jest.config.js` y scripts de desarrollo/test.
 
-## Mini-proyectos
+- `/api-ping/`: Microservicio de ejemplo para ping.
+- `/plantilla-mini-proyecto/`: Plantilla base para nuevos microproyectos.
 
-- `api-ping/`: Hello World con Express.  
-- `email-validator/`: Middleware para validar emails.  
-- `users-crud/`: CRUD en memoria de usuarios.  
-- _(añade más a medida que avances)_
+## Cómo usar un microproyecto
 
----
+```bash
+cd <nombre-del-microproyecto>
+npm install
+npm run dev # o npm test
+```
 
 ## Filosofía
 - **Iterar rápido:** Mejor aprender haciendo muchos pequeños proyectos.

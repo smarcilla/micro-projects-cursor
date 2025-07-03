@@ -8,7 +8,7 @@
 
 // invocar a ping sin query param
 
-GET http://localhost:3000/ping
+# GET http://localhost:3000/ping
 
-# GET http://localhost:3000/ping?name=Sergio
+ GET http://localhost:3000/ping?name=Sergio
 
